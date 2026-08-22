@@ -2083,25 +2083,25 @@ img {
         font-size: 2rem;
     }
 
-.footer-bottom {
-    flex-direction: column;
-    gap: 8px;
-}
-
-.footer-progress {
-    margin-top: 12px;
-}
-
-#favorite-link {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    cursor: pointer;
-    transition: opacity 0.2s ease;
-}
-
-#favorite-link:hover {
-    opacity: 0.6;
-}
+   .footer-bottom {
+       flex-direction: column;
+       gap: 8px;
+   }
+   
+   .footer-progress {
+       margin-top: 12px;
+   }
+   
+   #favorite-link {
+       color: inherit;
+       text-decoration: underline;
+       text-underline-offset: 4px;
+       cursor: pointer;
+       transition: opacity 0.2s ease;
+   }
+   
+   #favorite-link:hover {
+       opacity: 0.6;
+   }
 
 
