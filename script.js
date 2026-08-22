@@ -149,3 +149,23 @@ visuals.forEach((visual) => {
     });
 
 });
+
+// ============================================================
+// FAVORITE / BOOKMARK LINK
+// ============================================================
+
+const favoriteLink = document.getElementById("favorite-link");
+
+if (favoriteLink) {
+    favoriteLink.addEventListener("click", function (event) {
+        event.preventDefault();
+
+        const isMac = navigator.platform.toUpperCase().includes("MAC");
+
+        if (isMac) {
+            alert("Add me to your favorites! Press ⌘ + D to bookmark this page.");
+        } else {
+            alert("Add me to your favorites! Press Ctrl + D to bookmark this page.");
+        }
+    });
+}
