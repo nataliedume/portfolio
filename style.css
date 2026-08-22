@@ -2088,4 +2088,17 @@ img {
         gap: 8px;
     }
 
+   .footer-eyebrow + h2 + h4 a {
+       color: inherit;
+       text-decoration: underline;
+       text-underline-offset: 4px;
+       cursor: pointer;
 }
+
+   .footer-eyebrow + h2 + h4 a:hover {
+       opacity: 0.6;
+}
+
+}
+
+
